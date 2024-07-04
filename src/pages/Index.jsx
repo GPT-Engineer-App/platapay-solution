@@ -67,7 +67,7 @@ const Index = () => {
                 <CardTitle>Basic Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">$10/month</p>
+                <p className="text-2xl font-bold mb-4">₱10/month</p>
                 <ul className="list-disc list-inside">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
@@ -80,7 +80,7 @@ const Index = () => {
                 <CardTitle>Pro Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">$30/month</p>
+                <p className="text-2xl font-bold mb-4">₱30/month</p>
                 <ul className="list-disc list-inside">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
@@ -93,7 +93,7 @@ const Index = () => {
                 <CardTitle>Enterprise Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">$50/month</p>
+                <p className="text-2xl font-bold mb-4">₱50/month</p>
                 <ul className="list-disc list-inside">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
