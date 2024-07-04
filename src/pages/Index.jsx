@@ -17,8 +17,8 @@ const Index = () => {
       {/* Hero Section */}
       <section className="text-center py-16 bg-gray-100 shadowed adaptive-bg">
         <div className="container mx-auto">
-          <h1 className="text-4xl font-bold mb-4 text-gray-800">Innovative Payment Solutions for Filipinos, by Filipinos.</h1>
-          <p className="text-lg mb-8 text-gray-800">Affordable ways to innovate businesses of all sizes and a convenient e-wallet for citizens.</p>
+          <h1 className="text-4xl font-bold mb-4 text-gray-900">Innovative Payment Solutions for Filipinos, by Filipinos.</h1>
+          <p className="text-lg mb-8 text-gray-900">Affordable ways to innovate businesses of all sizes and a convenient e-wallet for citizens.</p>
           <div className="space-x-4">
             <Button variant="primary">Learn More</Button>
             <Button variant="secondary">Get Started</Button>
@@ -28,30 +28,30 @@ const Index = () => {
 
       {/* Features Section */}
       <section id="features" className="container mx-auto py-16 shadowed adaptive-bg">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Why Choose Platapay?</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Why Choose Platapay?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="shadowed adaptive-bg">
             <CardHeader>
-              <CardTitle className="text-gray-800">Affordable Solutions</CardTitle>
+              <CardTitle className="text-gray-900">Affordable Solutions</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-800">We provide cost-effective payment solutions for businesses of all sizes.</p>
+              <p className="text-gray-900">We provide cost-effective payment solutions for businesses of all sizes.</p>
             </CardContent>
           </Card>
           <Card className="shadowed adaptive-bg">
             <CardHeader>
-              <CardTitle className="text-gray-800">Innovative Technology</CardTitle>
+              <CardTitle className="text-gray-900">Innovative Technology</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-800">Our platform leverages the latest technology to ensure secure and efficient transactions.</p>
+              <p className="text-gray-900">Our platform leverages the latest technology to ensure secure and efficient transactions.</p>
             </CardContent>
           </Card>
           <Card className="shadowed adaptive-bg">
             <CardHeader>
-              <CardTitle className="text-gray-800">Convenient E-Wallet</CardTitle>
+              <CardTitle className="text-gray-900">Convenient E-Wallet</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-800">Our e-wallet offers a convenient way for citizens to manage their finances.</p>
+              <p className="text-gray-900">Our e-wallet offers a convenient way for citizens to manage their finances.</p>
             </CardContent>
           </Card>
         </div>
@@ -60,15 +60,15 @@ const Index = () => {
       {/* Pricing Section */}
       <section id="pricing" className="bg-gray-100 py-16 shadowed adaptive-bg">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Pricing Plans</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Pricing Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="shadowed adaptive-bg">
               <CardHeader>
-                <CardTitle className="text-gray-800">Basic Plan</CardTitle>
+                <CardTitle className="text-gray-900">Basic Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4 text-gray-800">₱10/month</p>
-                <ul className="list-disc list-inside text-gray-800">
+                <p className="text-2xl font-bold mb-4 text-gray-900">₱10/month</p>
+                <ul className="list-disc list-inside text-gray-900">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
                   <li>Feature 3</li>
@@ -77,11 +77,11 @@ const Index = () => {
             </Card>
             <Card className="shadowed adaptive-bg">
               <CardHeader>
-                <CardTitle className="text-gray-800">Pro Plan</CardTitle>
+                <CardTitle className="text-gray-900">Pro Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4 text-gray-800">₱30/month</p>
-                <ul className="list-disc list-inside text-gray-800">
+                <p className="text-2xl font-bold mb-4 text-gray-900">₱30/month</p>
+                <ul className="list-disc list-inside text-gray-900">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
                   <li>Feature 3</li>
@@ -90,11 +90,11 @@ const Index = () => {
             </Card>
             <Card className="shadowed adaptive-bg">
               <CardHeader>
-                <CardTitle className="text-gray-800">Enterprise Plan</CardTitle>
+                <CardTitle className="text-gray-900">Enterprise Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4 text-gray-800">₱50/month</p>
-                <ul className="list-disc list-inside text-gray-800">
+                <p className="text-2xl font-bold mb-4 text-gray-900">₱50/month</p>
+                <ul className="list-disc list-inside text-gray-900">
                   <li>Feature 1</li>
                   <li>Feature 2</li>
                   <li>Feature 3</li>
@@ -107,30 +107,30 @@ const Index = () => {
 
       {/* About Us Section */}
       <section id="about" className="container mx-auto py-16 shadowed adaptive-bg">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">About Platapay</h2>
-        <p className="text-center max-w-2xl mx-auto text-gray-800">Platapay is a payment solution provider in the Philippines, developed by Filipinos for Filipinos. Our mission is to provide affordable and innovative payment solutions to businesses of all sizes and offer a convenient e-wallet for citizens.</p>
+        <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">About Platapay</h2>
+        <p className="text-center max-w-2xl mx-auto text-gray-900">Platapay is a payment solution provider in the Philippines, developed by Filipinos for Filipinos. Our mission is to provide affordable and innovative payment solutions to businesses of all sizes and offer a convenient e-wallet for citizens.</p>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="bg-gray-100 py-16 shadowed adaptive-bg">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Get in Touch</h2>
           <form onSubmit={handleSubmit(onSubmit)} className="max-w-xl mx-auto space-y-4">
             <div>
-              <Input placeholder="Name" {...register("name", { required: true })} className="text-gray-800" />
+              <Input placeholder="Name" {...register("name", { required: true })} className="text-gray-900" />
               {errors.name && <span className="text-red-500">This field is required</span>}
             </div>
             <div>
-              <Input type="email" placeholder="Email" {...register("email", { required: true })} className="text-gray-800" />
+              <Input type="email" placeholder="Email" {...register("email", { required: true })} className="text-gray-900" />
               {errors.email && <span className="text-red-500">This field is required</span>}
             </div>
             <div>
-              <Textarea placeholder="Message" {...register("message", { required: true })} className="text-gray-800" />
+              <Textarea placeholder="Message" {...register("message", { required: true })} className="text-gray-900" />
               {errors.message && <span className="text-red-500">This field is required</span>}
             </div>
             <Button type="submit">Submit</Button>
           </form>
-          <div className="text-center mt-8 text-gray-800">
+          <div className="text-center mt-8 text-gray-900">
             <p>Address: 123 Platapay St., Manila, Philippines</p>
             <p>Phone: +63 912 345 6789</p>
             <p>Email: support@platapay.ph</p>
@@ -142,10 +142,10 @@ const Index = () => {
       <footer className="bg-gray-800 text-white py-4 shadowed adaptive-bg">
         <div className="container mx-auto text-center">
           <div className="space-x-4 mb-4">
-            <a href="#" className="hover:underline text-gray-800">Privacy Policy</a>
-            <a href="#" className="hover:underline text-gray-800">Terms of Service</a>
+            <a href="#" className="hover:underline text-gray-900">Privacy Policy</a>
+            <a href="#" className="hover:underline text-gray-900">Terms of Service</a>
           </div>
-          <p className="text-gray-800">© 2023 Platapay. All rights reserved.</p>
+          <p className="text-gray-900">© 2023 Platapay. All rights reserved.</p>
         </div>
       </footer>
     </div>
