@@ -92,3 +92,25 @@
     text-shadow: 1px 1px 2px black;
   }
 }
+
+@layer components {
+  .adaptive-text {
+    color: var(--foreground);
+    transition: color 0.3s ease;
+  }
+
+  .adaptive-bg {
+    background-color: var(--background);
+    transition: background-color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .dark .adaptive-text {
+    color: var(--foreground);
+  }
+
+  .dark .adaptive-bg {
+    background-color: var(--background);
+  }
+}
