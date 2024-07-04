@@ -95,17 +95,17 @@
   .adaptive-text {
     color: var(--foreground);
     transition: color 0.3s ease;
+    text-shadow: 0 0 1px black; /* Thin black border for light colors */
   }
 
   .adaptive-bg {
     background-color: var(--background);
     transition: background-color 0.3s ease;
   }
-}
 
-@layer utilities {
   .dark .adaptive-text {
     color: var(--foreground);
+    text-shadow: 0 0 1px white; /* Thin white border for dark colors */
   }
 
   .dark .adaptive-bg {
