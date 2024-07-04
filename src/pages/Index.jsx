@@ -17,8 +17,8 @@ const Index = () => {
       {/* Hero Section */}
       <section className="text-center py-16 bg-gray-100 shadowed">
         <div className="container mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Innovative Payment Solutions for Filipinos, by Filipinos.</h1>
-          <p className="text-lg mb-8">Affordable ways to innovate businesses of all sizes and a convenient e-wallet for citizens.</p>
+          <h1 className="text-4xl font-bold mb-4">Empowering Your Business with Seamless Payment Solutions</h1>
+          <p className="text-lg mb-8">Experience the future of payments with our innovative and secure platform.</p>
           <div className="space-x-4">
             <Button variant="primary">Learn More</Button>
             <Button variant="secondary">Get Started</Button>
@@ -28,30 +28,30 @@ const Index = () => {
 
       {/* Features Section */}
       <section id="features" className="container mx-auto py-16 shadowed">
-        <h2 className="text-3xl font-bold text-center mb-8">Why Choose Platapay?</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Our Key Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="shadowed">
             <CardHeader>
-              <CardTitle>Affordable Solutions</CardTitle>
+              <CardTitle>Secure Transactions</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>We provide cost-effective payment solutions for businesses of all sizes.</p>
+              <p>Our platform ensures the highest level of security for all your transactions.</p>
             </CardContent>
           </Card>
           <Card className="shadowed">
             <CardHeader>
-              <CardTitle>Innovative Technology</CardTitle>
+              <CardTitle>Easy Integration</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Our platform leverages the latest technology to ensure secure and efficient transactions.</p>
+              <p>Integrate our payment solutions seamlessly with your existing systems.</p>
             </CardContent>
           </Card>
           <Card className="shadowed">
             <CardHeader>
-              <CardTitle>Convenient E-Wallet</CardTitle>
+              <CardTitle>24/7 Support</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>Our e-wallet offers a convenient way for citizens to manage their finances.</p>
+              <p>Our dedicated support team is available around the clock to assist you.</p>
             </CardContent>
           </Card>
         </div>
@@ -60,31 +60,31 @@ const Index = () => {
       {/* Pricing Section */}
       <section id="pricing" className="bg-gray-100 py-16 shadowed">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8">Pricing Plans</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Affordable Pricing Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="shadowed">
               <CardHeader>
-                <CardTitle>Basic Plan</CardTitle>
+                <CardTitle>Starter Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">₱10/month</p>
+                <p className="text-2xl font-bold mb-4">₱15/month</p>
                 <ul className="list-disc list-inside">
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-                  <li>Feature 3</li>
+                  <li>Basic Features</li>
+                  <li>Email Support</li>
+                  <li>100 Transactions</li>
                 </ul>
               </CardContent>
             </Card>
             <Card className="shadowed">
               <CardHeader>
-                <CardTitle>Pro Plan</CardTitle>
+                <CardTitle>Business Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">₱30/month</p>
+                <p className="text-2xl font-bold mb-4">₱45/month</p>
                 <ul className="list-disc list-inside">
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-                  <li>Feature 3</li>
+                  <li>All Starter Features</li>
+                  <li>Priority Support</li>
+                  <li>1000 Transactions</li>
                 </ul>
               </CardContent>
             </Card>
@@ -93,11 +93,11 @@ const Index = () => {
                 <CardTitle>Enterprise Plan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold mb-4">₱50/month</p>
+                <p className="text-2xl font-bold mb-4">₱75/month</p>
                 <ul className="list-disc list-inside">
-                  <li>Feature 1</li>
-                  <li>Feature 2</li>
-                  <li>Feature 3</li>
+                  <li>All Business Features</li>
+                  <li>Dedicated Account Manager</li>
+                  <li>Unlimited Transactions</li>
                 </ul>
               </CardContent>
             </Card>
@@ -107,8 +107,8 @@ const Index = () => {
 
       {/* About Us Section */}
       <section id="about" className="container mx-auto py-16 shadowed">
-        <h2 className="text-3xl font-bold text-center mb-8">About Platapay</h2>
-        <p className="text-center max-w-2xl mx-auto">Platapay is a payment solution provider in the Philippines, developed by Filipinos for Filipinos. Our mission is to provide affordable and innovative payment solutions to businesses of all sizes and offer a convenient e-wallet for citizens.</p>
+        <h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
+        <p className="text-center max-w-2xl mx-auto">At Platapay, we are committed to providing top-notch payment solutions that cater to the unique needs of businesses in the Philippines. Our team of experts works tirelessly to ensure that our platform is secure, reliable, and easy to use.</p>
       </section>
 
       {/* Contact Section */}
