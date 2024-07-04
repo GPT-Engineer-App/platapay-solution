@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-      <section className="text-center py-16 bg-gray-100">
+      <section className="text-center py-16 bg-gray-100 shadowed">
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold mb-4">Innovative Payment Solutions for Filipinos, by Filipinos.</h1>
           <p className="text-lg mb-8">Affordable ways to innovate businesses of all sizes and a convenient e-wallet for citizens.</p>
@@ -27,10 +27,10 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="container mx-auto py-16">
+      <section id="features" className="container mx-auto py-16 shadowed">
         <h2 className="text-3xl font-bold text-center mb-8">Why Choose Platapay?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card>
+          <Card className="shadowed">
             <CardHeader>
               <CardTitle>Affordable Solutions</CardTitle>
             </CardHeader>
@@ -38,7 +38,7 @@ const Index = () => {
               <p>We provide cost-effective payment solutions for businesses of all sizes.</p>
             </CardContent>
           </Card>
-          <Card>
+          <Card className="shadowed">
             <CardHeader>
               <CardTitle>Innovative Technology</CardTitle>
             </CardHeader>
@@ -46,7 +46,7 @@ const Index = () => {
               <p>Our platform leverages the latest technology to ensure secure and efficient transactions.</p>
             </CardContent>
           </Card>
-          <Card>
+          <Card className="shadowed">
             <CardHeader>
               <CardTitle>Convenient E-Wallet</CardTitle>
             </CardHeader>
@@ -58,11 +58,11 @@ const Index = () => {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="bg-gray-100 py-16">
+      <section id="pricing" className="bg-gray-100 py-16 shadowed">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">Pricing Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <Card className="shadowed">
               <CardHeader>
                 <CardTitle>Basic Plan</CardTitle>
               </CardHeader>
@@ -75,7 +75,7 @@ const Index = () => {
                 </ul>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="shadowed">
               <CardHeader>
                 <CardTitle>Pro Plan</CardTitle>
               </CardHeader>
@@ -88,7 +88,7 @@ const Index = () => {
                 </ul>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="shadowed">
               <CardHeader>
                 <CardTitle>Enterprise Plan</CardTitle>
               </CardHeader>
@@ -106,13 +106,13 @@ const Index = () => {
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="container mx-auto py-16">
+      <section id="about" className="container mx-auto py-16 shadowed">
         <h2 className="text-3xl font-bold text-center mb-8">About Platapay</h2>
         <p className="text-center max-w-2xl mx-auto">Platapay is a payment solution provider in the Philippines, developed by Filipinos for Filipinos. Our mission is to provide affordable and innovative payment solutions to businesses of all sizes and offer a convenient e-wallet for citizens.</p>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="bg-gray-100 py-16">
+      <section id="contact" className="bg-gray-100 py-16 shadowed">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
           <form onSubmit={handleSubmit(onSubmit)} className="max-w-xl mx-auto space-y-4">
@@ -139,7 +139,7 @@ const Index = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-gray-800 text-white py-4">
+      <footer className="bg-gray-800 text-white py-4 shadowed">
         <div className="container mx-auto text-center">
           <div className="space-x-4 mb-4">
             <a href="#" className="hover:underline">Privacy Policy</a>
