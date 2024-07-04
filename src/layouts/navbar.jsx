@@ -12,6 +12,8 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2 } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
+import { useTheme } from "next-themes"; // Add this import
+import { Switch } from "@/components/ui/switch"; // Add this import
 
 const Layout = () => {
   return (
@@ -20,6 +22,7 @@ const Layout = () => {
         <DesktopNav />
         <MobileNav />
         <UserMenu />
+        <ThemeToggle /> {/* Add the ThemeToggle component */}
       </header>
       <main className="flex-grow overflow-auto">
         <Outlet />
@@ -107,5 +110,20 @@ const NavItem = ({ to, children, className }) => (
     {children}
   </NavLink>
 );
+
+const ThemeToggle = () => {
+  const { theme, setTheme } = useTheme();
+
+  return (
+    <div className="flex items-center space-x-2">
+      <span className="text-sm">Light</span>
+      <Switch
+        checked={theme === "dark"}
+        onCheckedChange={(checked) => setTheme(checked ? "dark" : "light")}
+      />
+      <span className="text-sm">Dark</span>
+    </div>
+  );
+};
 
 export default Layout;
