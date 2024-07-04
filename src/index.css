@@ -84,12 +84,10 @@
 
 @layer base {
   body {
-    @apply text-[rgba(0,0,0,0.6)];
-    text-shadow: 1px 1px 2px black;
+    @apply text-[hsl(var(--light-purple))];
   }
   h1, h2, h3, h4, h5, h6, p, span, a, li, div {
-    @apply text-[rgba(0,0,0,0.6)];
-    text-shadow: 1px 1px 2px black;
+    @apply text-[hsl(var(--light-purple))];
   }
 }
 
