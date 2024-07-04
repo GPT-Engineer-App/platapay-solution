@@ -81,3 +81,14 @@
     @apply shadow-lg;
   }
 }
+
+@layer base {
+  body {
+    @apply text-white;
+    text-shadow: 1px 1px 2px black;
+  }
+  h1, h2, h3, h4, h5, h6, p, span, a, li, div {
+    @apply text-white;
+    text-shadow: 1px 1px 2px black;
+  }
+}
